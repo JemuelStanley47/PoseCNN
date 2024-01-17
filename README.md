@@ -74,5 +74,8 @@ In the below figure, the final column plots the centermaps for class 0, which co
 <img src="img/dataset.png" width=600 >
 
 ## RESULTS
-
+### Segmentation
 <img src="img/segmentation_GT_Pred.png" width=600>
+
+### Pose
+<img src="#" width=600 alt="Pose estimate image">
