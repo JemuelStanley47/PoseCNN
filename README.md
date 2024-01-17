@@ -1,5 +1,7 @@
 # PoseCNN
 
+<img src="img/architecture.png" width=600>
+
 A variant of the [PoseCNN](https://arxiv.org/abs/1711.00199) network is implemented in this project. This architecture is designed to take an RGB color image as input and produce a [6 degrees-of-freedom pose](https://en.wikipedia.org/wiki/Six_degrees_of_freedom) estimate for each instance of an object within the scene from which the image was taken. To do this, PoseCNN uses 5 operations within the architecture:
 
 1) Backbone convolutional feature extraction network is used to produce a tensor representing learned features from the input image. 
@@ -8,11 +10,6 @@ A variant of the [PoseCNN](https://arxiv.org/abs/1711.00199) network is implemen
 4) Translations for each object instance are estimated using a translation branch along with the embedded features. 
 5) Rotation branch uses the embedded features to estimate a rotation, in the form of a [quaternion](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation), for each region of interest.
 
-Thr architecture is shown in more detail from Figure 2 of the [PoseCNN paper](https://arxiv.org/abs/1711.00199):
-
-<img src="img/architecture.png" width=600>
-
-A variant of this architecture is implemented that performs each of the 5 operations using PyTorch and data from the `PROPSPoseDataset`. The remainder of the features for this project will be implemented in the `pose_cnn.py` file.
 
 ## Getting started
 
