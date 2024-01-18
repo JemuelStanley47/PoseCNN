@@ -78,6 +78,8 @@ In the below figure, the final column plots the centermaps for class 0, which co
 <img src="img/download.png" width=600>
 
 ### Pose
-<img src="img/op-1.png" width=200 alt="Pose">
-<img src="img/op-2.png" width=200 alt="Pose">
-<img src="img/op-3.png" width=200 alt="Pose">
+<figure>
+ <img src="img/op-1.png" width=200 alt="Pose">
+ <img src="img/op-2.png" width=200 alt="Pose">
+ <img src="img/op-3.png" width=200 alt="Pose">
+</figure>
